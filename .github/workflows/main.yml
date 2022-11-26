@@ -11,10 +11,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-      steps:
+    steps:
       - name: 'Testing Github action'
         run: pwd
 
-        - name: 'Testing printing'
-          run: echo Afaf
+      - name: 'Testing printing'
+        run: echo Afaf
 
